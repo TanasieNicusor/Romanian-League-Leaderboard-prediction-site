@@ -1,0 +1,167 @@
+
+html, body 
+{
+  min-height: 100vh;
+  background-image: url('https://i.ibb.co/vCx2jfpk/soccer-stadium-full-people.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+h1 
+{
+  text-align: center;
+  color: #ff0000;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.container 
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+  gap: 40px;
+}
+
+#slot-container 
+{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.slot-wrapper 
+{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.slot-number 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;              
+  height: 30px;             
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 4px;      
+  box-shadow: 0 1px 3px rgb(71, 71, 71); 
+}
+
+
+.drop-slot 
+{
+  min-height: 40px;
+  background-color: #ccc;
+  padding: 1px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.drop-slot.drag-over {
+  background-color: #e0ffe0;
+}
+
+#text-container 
+{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.draggable {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  padding: 3px 10px;
+  background-color: #e0f7ff;
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: grab;
+  align-self: start;
+  width: fit-content;
+  font-size: 0.75rem;
+}
+
+
+#item-icon 
+{
+  width: 2em;  
+  height: 2em;
+  object-fit: contain;
+  margin-right: 6px; 
+}
+
+
+#reset-btn 
+{
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  background-color: #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: start;
+  width: fit-content;
+}
+#reset-btn:hover 
+{
+  background-color: #bbb;
+}
+
+#submit-btn 
+{
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#submit-btn:hover 
+{
+  background-color: #45a049;
+}
+
+#button-container 
+{
+  display: flex;
+  gap: 10px;
+}
+
+#title-wrapper 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#title-image 
+{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+#page-title 
+{
+  font-size: 32px;
+  margin: 0;
+  color: red;
+}
+
