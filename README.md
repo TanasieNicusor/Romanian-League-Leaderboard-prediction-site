@@ -1,0 +1,1 @@
+Romanian League leaderboard prediciton site. You can place teams in pozitions by dragging. The reset button resets the teams to the starting position, the submit button saves a screenshot of the leaderboard.
